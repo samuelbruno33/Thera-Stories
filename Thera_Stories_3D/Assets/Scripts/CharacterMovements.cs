@@ -6,6 +6,7 @@ public class CharacterMovements : MonoBehaviour
 {
     private Rigidbody body;
     private Camera mainCamera;
+    public Animator animator;
 
     private float speed = 5;
     private float xMargin = 4;
@@ -42,12 +43,12 @@ public class CharacterMovements : MonoBehaviour
     private Vector3 InEditorMovements(Vector3 dir) //emulo i movimenti del touch (il commento dei vari comandi è nel InPhoneMovements)
     {
         if(Input.GetKey(KeyCode.D)){
-            dir.x = -1;
-            transform.rotation = Quaternion.Euler(0,0,-30);
+            dir.x = 1;
+            transform.localRotation = Quaternion.Euler(0,-30,0);
         }
         else if(Input.GetKey(KeyCode.A)){
-            dir.x = 1;
-            transform.rotation = Quaternion.Euler(0,0,30);
+            dir.x = -1;
+            transform.localRotation = Quaternion.Euler(0,30,0);
         }
 
         return dir;
@@ -58,17 +59,16 @@ public class CharacterMovements : MonoBehaviour
         //voglio sapere se il giocatore tocca il touchscreen con almeno un dito, se non tocco lo schermo sto fermo
         if (Input.touches.Length > 0){
             Vector3 touchPosition = Input.touches[0].position; // prendo la posizione del primo dito con cui si tocca il touchscreen, così da controllare che non si abbiano due dita both at once
-            //touchPosition = mainCamera.ScreenToWorldPoint(touchPosition); //Cast sul world point
-
+            
             if(touchPosition.x > Screen.width / 2)
             {
-                dir.x = -1; //vai a dx
-                transform.rotation = Quaternion.Euler(0,0,-30); //ruota leggermente il personaggio mentre va in una direzione
+                dir.x = 1; //vai a dx
+                transform.rotation = Quaternion.Euler(0,-30,0); //ruota leggermente il personaggio mentre va in una direzione
             }
             else if (touchPosition.x < Screen.width / 2)
             {
-                dir.x = 1; //vai a sx
-                transform.rotation = Quaternion.Euler(0,0,30);
+                dir.x = -1; //vai a sx
+                transform.rotation = Quaternion.Euler(0,-30,0);
             }
             else
             {
