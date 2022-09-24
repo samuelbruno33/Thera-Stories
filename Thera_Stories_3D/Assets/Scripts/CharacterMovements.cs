@@ -35,7 +35,7 @@ public class CharacterMovements : MonoBehaviour
         posX = Mathf.Clamp(posX, -xMargin, xMargin); //Dò dei margini al giocatore per non sforare nella visuale di gioco: più di un tot non si può spostare sull'asse x
         transform.position = new Vector3(posX, transform.position.y, transform.position.z); //Ricalcolo la posizione del player con il vincolo sulla x
 
-        body.velocity = new Vector3(dir.x * speed, 0, -2); //Movimento del player
+        body.velocity = new Vector3(dir.x * speed, 0, 0); //Movimento del player
     }
 
 
@@ -55,17 +55,17 @@ public class CharacterMovements : MonoBehaviour
 
     private Vector3 InPhoneMovements(Vector3 dir)
     {
-        //Vogliamo sapere se il giocatore tocca il touchscreen con almeno un dito, se non tocco lo schermo sto fermo
+        //voglio sapere se il giocatore tocca il touchscreen con almeno un dito, se non tocco lo schermo sto fermo
         if (Input.touches.Length > 0){
-            Vector3 touchPosition = Input.touches[0].position; // prendiamo la posizione del primo dito con cui si tocca il touchscreen, così da controllare che non si abbiano due dita both at once
-            touchPosition = mainCamera.ScreenToWorldPoint(touchPosition); //Cast sul world point
+            Vector3 touchPosition = Input.touches[0].position; // prendo la posizione del primo dito con cui si tocca il touchscreen, così da controllare che non si abbiano due dita both at once
+            //touchPosition = mainCamera.ScreenToWorldPoint(touchPosition); //Cast sul world point
 
-            if(touchPosition.x > 0)
+            if(touchPosition.x > Screen.width / 2)
             {
                 dir.x = -1; //vai a dx
                 transform.rotation = Quaternion.Euler(0,0,-30); //ruota leggermente il personaggio mentre va in una direzione
             }
-            else if (touchPosition.x < 0)
+            else if (touchPosition.x < Screen.width / 2)
             {
                 dir.x = 1; //vai a sx
                 transform.rotation = Quaternion.Euler(0,0,30);
