@@ -6,9 +6,9 @@ public class FinishLine : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Obstacle")
+        if(other.gameObject.tag == "FinishLine")
         {
-            Destroy(other.gameObject);
+            Destroy(this.gameObject);
         }
     }
 }
