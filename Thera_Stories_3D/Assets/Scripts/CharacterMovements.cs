@@ -17,6 +17,11 @@ public class CharacterMovements : MonoBehaviour
         mainCamera = Camera.main;
     }
 
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     // Update is called once per frame
     private void Update()
     {
