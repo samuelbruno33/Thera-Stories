@@ -8,8 +8,14 @@ public class CharacterMovements : MonoBehaviour
     private Camera mainCamera;
     public Animator animator;
 
-    private float speed = 5;
+    [SerializeField] private float speed = 5;
     private float xMargin = 4;
+
+    public float Speed
+    {
+        get { return speed; }
+        set { speed = value; }
+    }
 
     private void Awake()
     {
@@ -74,10 +80,6 @@ public class CharacterMovements : MonoBehaviour
             {
                 dir.x = -1; //vai a sx
                 transform.rotation = Quaternion.Euler(0,-30,0);
-            }
-            else
-            {
-                Debug.Log("Che casino!");
             }
         }
         return dir;

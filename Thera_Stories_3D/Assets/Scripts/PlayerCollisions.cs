@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class PlayerCollisions : MonoBehaviour
 {
+    private CharacterMovements playerController;
+
+    void Start()
+    {
+        playerController = GetComponent<CharacterMovements>();
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Obstacle")
         {
-            Destroy(this.gameObject);
-            Debug.Log("Hai perso!");
+            playerController.Speed = 2;
         }
     }
 }
