@@ -8,8 +8,9 @@ public class CharacterMovements : MonoBehaviour
     private Camera mainCamera;
     public Animator animator;
 
-    [SerializeField] private float speed = 5;
+    private float speed = 5;
     private float xMargin = 4;
+    public float jumpForce = 10f;
 
     public float Speed
     {
@@ -21,11 +22,6 @@ public class CharacterMovements : MonoBehaviour
     {
         body = GetComponent<Rigidbody>();
         mainCamera = Camera.main;
-    }
-
-    private void Start()
-    {
-        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -60,6 +56,12 @@ public class CharacterMovements : MonoBehaviour
         else if(Input.GetKey(KeyCode.A)){
             dir.x = -1;
             transform.localRotation = Quaternion.Euler(0,30,0);
+        }
+        else if(Input.GetKey(KeyCode.Space)) {
+            Vector3 vector = new Vector3();
+            vector.y += jumpForce;
+            body.velocity = vector;
+            animator.SetTrigger("jump");
         }
 
         return dir;
