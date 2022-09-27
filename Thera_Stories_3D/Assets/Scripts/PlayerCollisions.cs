@@ -63,5 +63,4 @@ public class PlayerCollisions : MonoBehaviour
         changedPos = initialPosition;
         countCollide = 0;
     }
-
 }

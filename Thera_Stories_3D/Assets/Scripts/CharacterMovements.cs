@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterMovements : MonoBehaviour
 {
     private Rigidbody body;
-    private Camera mainCamera;
+    //private Camera mainCamera;
     public Animator animator;
 
     private float speed = 13;
@@ -21,7 +21,7 @@ public class CharacterMovements : MonoBehaviour
     private void Awake()
     {
         body = GetComponent<Rigidbody>();
-        mainCamera = Camera.main;
+        //mainCamera = Camera.main;
     }
 
     // Update is called once per frame
