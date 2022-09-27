@@ -8,8 +8,8 @@ public class CharacterMovements : MonoBehaviour
     private Camera mainCamera;
     public Animator animator;
 
-    private float speed = 5;
-    private float xMargin = 4;
+    private float speed = 13;
+    private float xMargin = 6.5f;
     public float jumpForce = 10f;
 
     public float Speed
@@ -81,7 +81,7 @@ public class CharacterMovements : MonoBehaviour
             else if (touchPosition.x < Screen.width / 2)
             {
                 dir.x = -1; //vai a sx
-                transform.rotation = Quaternion.Euler(0,-30,0);
+                transform.rotation = Quaternion.Euler(0,30,0);
             }
         }
         return dir;

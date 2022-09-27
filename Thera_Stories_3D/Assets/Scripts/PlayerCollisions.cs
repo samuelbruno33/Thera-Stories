@@ -10,6 +10,9 @@ public class PlayerCollisions : MonoBehaviour
     private Vector3 initialPosition;
     private float initialSpeed;
     private Vector3 changedPos;
+    private IEnumerator slowingCoroutine;
+
+    int countCollide = 0;
 
     private void Start()
     {
@@ -25,12 +28,23 @@ public class PlayerCollisions : MonoBehaviour
     {
         if(other.gameObject.tag == "Obstacle")
         {
-            playerController.Speed = 1;
-            playerController.animator.speed = 0.5f;
-            changedPos.z += -5;
-            ChangeRockPosition(changedPos); //Sposto la pos della roccia di 5 unità più vicino al player
+            countCollide ++;
 
-            StartCoroutine(TimerToRestoreValues()); //Coroutine che mi serve per far tornare tutto normale dopo un tot
+            playerController.Speed = 5;
+            playerController.animator.speed = 0.8f;
+            changedPos.z += -3.5f;
+            ChangeRockPosition(changedPos); //Sposto la pos della roccia di 5 unità più vicino al player
+            if(slowingCoroutine != null){
+                StopCoroutine(slowingCoroutine);
+            }
+            slowingCoroutine = TimerToRestoreValues();
+            StartCoroutine(slowingCoroutine); //Coroutine che mi serve per far tornare tutto normale dopo un tot
+        }
+
+        if(other.gameObject.tag == "BoulderLava")
+        {
+            Destroy(this.gameObject);
+            Debug.Log("Hai perso!");
         }
     }
 
@@ -42,8 +56,12 @@ public class PlayerCollisions : MonoBehaviour
     IEnumerator TimerToRestoreValues()
     {
         yield return new WaitForSecondsRealtime(5);
+
         playerController.Speed = initialSpeed;
         rockController.transform.position = initialPosition;
         playerController.animator.speed = 1;
+        changedPos = initialPosition;
+        countCollide = 0;
     }
+
 }

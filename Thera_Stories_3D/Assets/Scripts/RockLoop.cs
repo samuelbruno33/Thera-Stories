@@ -5,16 +5,16 @@ using UnityEngine;
 public class RockLoop : MonoBehaviour
 {
     private float speed = 150f;
-    Vector3 newRotation;
+    private Vector3 newRotation;
     private float transitionTime = 0;
     public AnimationCurve curve;
-    Vector3 initialRockPos;
+    private float initialYRockPos;
     private float jumpHeight = 5;
-    bool isCollided = false;
+    private bool isCollided = false;
 
     void Start()
     {
-        initialRockPos = transform.position;
+        initialYRockPos = transform.position.y;
     }
 
     // Update is called once per frame
@@ -25,8 +25,8 @@ public class RockLoop : MonoBehaviour
         if(isCollided)
         {
             transitionTime += Time.deltaTime;
-            Vector3 vector = initialRockPos;
-            vector.y = curve.Evaluate(transitionTime) * jumpHeight + initialRockPos.y;
+            Vector3 vector = new Vector3(transform.position.x, initialYRockPos, transform.position.z);
+            vector.y = curve.Evaluate(transitionTime) * jumpHeight + initialYRockPos;
             transform.position = vector;
             if(transitionTime >= 1){
                 isCollided = false;

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - FinishLine
+  - BoulderLava
   layers:
   - Default
   - TransparentFX

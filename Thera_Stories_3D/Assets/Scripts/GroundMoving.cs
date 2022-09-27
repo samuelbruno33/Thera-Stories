@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GroundMoving : MonoBehaviour
 {
-    [SerializeField] private float offset = 0.08f;
+    private float offset = 0.2f;
 
     // Update is called once per frame
     void Update()
