@@ -5,10 +5,9 @@ using UnityEngine;
 public class CharacterMovements : MonoBehaviour
 {
     private Rigidbody body;
-    //private Camera mainCamera;
     public Animator animator;
 
-    private float speed = 13;
+    private float speed = 15;
     private float xMargin = 6.5f;
     public float jumpForce = 10f;
 
@@ -21,7 +20,6 @@ public class CharacterMovements : MonoBehaviour
     private void Awake()
     {
         body = GetComponent<Rigidbody>();
-        //mainCamera = Camera.main;
     }
 
     // Update is called once per frame
@@ -57,12 +55,12 @@ public class CharacterMovements : MonoBehaviour
             dir.x = -1;
             transform.localRotation = Quaternion.Euler(0,30,0);
         }
-        else if(Input.GetKey(KeyCode.Space)) {
+        /*else if(Input.GetKey(KeyCode.Space)) {
             Vector3 vector = new Vector3();
             vector.y += jumpForce;
             body.velocity = vector;
             animator.SetTrigger("jump");
-        }
+        }*/
 
         return dir;
     }

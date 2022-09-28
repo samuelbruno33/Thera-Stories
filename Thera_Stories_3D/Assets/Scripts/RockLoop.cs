@@ -12,6 +12,8 @@ public class RockLoop : MonoBehaviour
     private float jumpHeight = 5;
     private bool isCollided = false;
 
+    private bool isFinished = false;
+
     void Start()
     {
         initialYRockPos = transform.position.y;
@@ -20,7 +22,10 @@ public class RockLoop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        XRotation();
+        if(!isFinished)
+            XRotation();
+        else
+            StopRotation();
 
         if(isCollided)
         {
@@ -35,10 +40,15 @@ public class RockLoop : MonoBehaviour
         }
     }
 
-    void XRotation()
+    private void XRotation()
     {
         newRotation.x -= speed * Time.deltaTime;
         transform.localEulerAngles = newRotation;
+    }
+
+    private void StopRotation()
+    {
+        this.transform.rotation = new Quaternion(0, transform.rotation.y, transform.rotation.z, 1);
     }
 
     void OnTriggerEnter(Collider other)
@@ -47,5 +57,23 @@ public class RockLoop : MonoBehaviour
         {
             isCollided = true;
         }
+
+        if(other.gameObject.tag == "Finish")
+        {
+            isFinished = true;
+
+            foreach (GameObject i in SpawnGround.groundsCount)
+            {
+                i.gameObject.GetComponent<GroundMoving>().enabled = false; //Disabilito il componente GroundMoving
+            }
+
+            //StartCoroutine(StopMovingGround());
+
+        }
     }
+
+    /*IEnumerator StopMovingGround()
+    {
+
+    }*/
 }

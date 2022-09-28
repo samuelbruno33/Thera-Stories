@@ -46,6 +46,13 @@ public class PlayerCollisions : MonoBehaviour
             Destroy(this.gameObject);
             Debug.Log("Hai perso!");
         }
+
+        if(other.gameObject.tag == "Finish")
+        {
+            playerController.animator.SetTrigger("FinishLine");
+            Debug.Log("Hai vinto!");
+        }
+
     }
 
     private void ChangeRockPosition(Vector3 pos)
