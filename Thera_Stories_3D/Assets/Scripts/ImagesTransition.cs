@@ -22,7 +22,7 @@ public class ImagesTransition : MonoBehaviour {
 
     private void ImageTransition()
     {
-        if(j+1 < 36)
+        if(j < 36)
         {
             imagesSprites[j].SetActive(false);
             imagesSprites[j+1].SetActive(true);
