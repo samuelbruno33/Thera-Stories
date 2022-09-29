@@ -34,7 +34,7 @@ public class CharacterMovements : MonoBehaviour
         }
         else
         {
-            dir = InPhoneMovements(dir);
+            //dir = InPhoneMovements(dir);
         }
 
         float posX = transform.position.x;
@@ -65,7 +65,7 @@ public class CharacterMovements : MonoBehaviour
         return dir;
     }
 
-    private Vector3 InPhoneMovements(Vector3 dir)
+    /*private Vector3 InPhoneMovements(Vector3 dir)
     {
         //voglio sapere se il giocatore tocca il touchscreen con almeno un dito, se non tocco lo schermo sto fermo
         if (Input.touches.Length > 0){
@@ -83,6 +83,6 @@ public class CharacterMovements : MonoBehaviour
             }
         }
         return dir;
-    }
+    }*/
 
 }
