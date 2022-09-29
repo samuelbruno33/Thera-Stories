@@ -6,8 +6,8 @@ public class GroundMoving : MonoBehaviour
 {
     private static float offset = 0.2f;
 
-    // Update is called once per frame
-    void Update()
+    // FixedUpdate is called once per 0.2s
+    void FixedUpdate()
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + Offset);
     }

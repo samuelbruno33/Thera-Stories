@@ -24,7 +24,7 @@ public class SpawnGround : MonoBehaviour
     {
         count++;
 
-        if(other.gameObject.tag == "Player" && count < 1) //< e =
+        if(other.gameObject.tag == "Player" && count <= 2) //<=2
         {
             GameObject ground = Instantiate(groundSpawner, groundSpawnPosition.position, Quaternion.identity);
             groundsCount.Add(ground);

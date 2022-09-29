@@ -28,16 +28,8 @@ public class RockLoop : MonoBehaviour
             StopRotation();
 
         if(isCollided)
-        {
-            transitionTime += Time.deltaTime;
-            Vector3 vector = new Vector3(transform.position.x, initialYRockPos, transform.position.z);
-            vector.y = curve.Evaluate(transitionTime) * jumpHeight + initialYRockPos;
-            transform.position = vector;
-            if(transitionTime >= 1){
-                isCollided = false;
-                transitionTime = 0;
-            }
-        }
+            LittleJump();
+
     }
 
     private void XRotation()
@@ -51,6 +43,18 @@ public class RockLoop : MonoBehaviour
         this.transform.rotation = new Quaternion(0, transform.rotation.y, transform.rotation.z, 1);
     }
 
+    private void LittleJump()
+    {
+        transitionTime += Time.deltaTime;
+        Vector3 vector = new Vector3(transform.position.x, initialYRockPos, transform.position.z);
+        vector.y = curve.Evaluate(transitionTime) * jumpHeight + initialYRockPos;
+        transform.position = vector;
+        if(transitionTime >= 1){
+            isCollided = false;
+            transitionTime = 0;
+        }
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Obstacle")
@@ -61,19 +65,26 @@ public class RockLoop : MonoBehaviour
         if(other.gameObject.tag == "Finish")
         {
             isFinished = true;
-
-            foreach (GameObject i in SpawnGround.groundsCount)
-            {
-                i.gameObject.GetComponent<GroundMoving>().enabled = false; //Disabilito il componente GroundMoving
-            }
-
-            //StartCoroutine(StopMovingGround());
-
+            StartCoroutine(StopMovingGround());
         }
     }
 
-    /*IEnumerator StopMovingGround()
+    IEnumerator StopMovingGround()
     {
+        float timer = 0;
+        float duration = 1f;
+        float originalOffset = GroundMoving.Offset;
 
-    }*/
+        while(timer < duration) {
+            yield return null;
+            timer += Time.deltaTime;
+            float offset = Mathf.Lerp(originalOffset, 0, timer/duration);
+            GroundMoving.Offset = offset;
+        }
+
+        foreach (GameObject i in SpawnGround.groundsCount)
+        {
+            i.gameObject.GetComponent<GroundMoving>().enabled = false;
+        }
+    }
 }
