@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VulcanLevel.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Schermata iniziale/Credits.unity
+    guid: c611e8ab9a5c5eef4b80d3b567e43dd2
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: e1535a407535f103185018a25e83ca6a,
       type: 2}

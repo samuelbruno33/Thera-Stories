@@ -1900,6 +1900,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2758781889911388248, guid: 8ec085e01054428479f58f7a4f1cd4f1,
+        type: 3}
+      propertyPath: m_text
+      value: "Nel 1613 A.C. un\u2019eruzione vulcanica enorme ha colpito Santorini.
+        \nScappa da un masso di lava, evitando gli ostacoli presenti sul cammino.\nRiuscirai
+        ad arrivare al tempio in salvo?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758781889911388248, guid: 8ec085e01054428479f58f7a4f1cd4f1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 54.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758781889911388249, guid: 8ec085e01054428479f58f7a4f1cd4f1,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 634.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758781889911388249, guid: 8ec085e01054428479f58f7a4f1cd4f1,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 560.5522
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758781889911388249, guid: 8ec085e01054428479f58f7a4f1cd4f1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.725
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758781889911388249, guid: 8ec085e01054428479f58f7a4f1cd4f1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -434
+      objectReference: {fileID: 0}
     - target: {fileID: 2758781890521229641, guid: 8ec085e01054428479f58f7a4f1cd4f1,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2015,6 +2047,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2758781890689484781, guid: 8ec085e01054428479f58f7a4f1cd4f1,
+        type: 3}
+      propertyPath: m_text
+      value: Escape Lava
+      objectReference: {fileID: 0}
     - target: {fileID: 2758781890772854042, guid: 8ec085e01054428479f58f7a4f1cd4f1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2054,6 +2091,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758781890986125741, guid: 8ec085e01054428479f58f7a4f1cd4f1,
+        type: 3}
+      propertyPath: m_text
+      value: "\u03B1\u03C0\u03BF\u03B4\u03C1\u03AC\u03C3\u03C4\u03B5 \u03BB\u03AC\u03B2\u03B1"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907046322632812011, guid: 8ec085e01054428479f58f7a4f1cd4f1,
+        type: 3}
+      propertyPath: m_text
+      value: ' Location: Nea Kameni'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ec085e01054428479f58f7a4f1cd4f1, type: 3}
