@@ -208,9 +208,10 @@ GameObject:
   m_Component:
   - component: {fileID: 28729059}
   - component: {fileID: 28729060}
+  - component: {fileID: 28729061}
   m_Layer: 0
   m_Name: colonnarotta (4)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -282,6 +283,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &28729061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28729058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.802656, y: 35.079998, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0.000015258789}
 --- !u!1 &37645678
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,9 +306,10 @@ GameObject:
   m_Component:
   - component: {fileID: 37645679}
   - component: {fileID: 37645680}
+  - component: {fileID: 37645681}
   m_Layer: 0
   m_Name: rocce (10)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -366,6 +381,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &37645681
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37645678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0.000030517578}
 --- !u!1001 &39201759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -504,7 +532,7 @@ Transform:
   - {fileID: 740987411}
   - {fileID: 37645679}
   m_Father: {fileID: 109069002}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &109068998
 GameObject:
@@ -606,12 +634,11 @@ Transform:
   - {fileID: 1893685021}
   - {fileID: 1264754821}
   - {fileID: 1322813905}
-  - {fileID: 1653138433}
   - {fileID: 77434575}
   - {fileID: 1996669053}
   - {fileID: 686006681}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &109069003
 MonoBehaviour:
@@ -635,9 +662,10 @@ GameObject:
   m_Component:
   - component: {fileID: 221082816}
   - component: {fileID: 221082817}
+  - component: {fileID: 221082818}
   m_Layer: 0
   m_Name: rocce (16)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -709,6 +737,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &221082818
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221082815}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0.0000076293945, y: -0.000000014901161, z: 0}
 --- !u!1 &242906225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,9 +1069,10 @@ GameObject:
   m_Component:
   - component: {fileID: 349114579}
   - component: {fileID: 349114580}
+  - component: {fileID: 349114581}
   m_Layer: 0
   m_Name: colonnarotta (8)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1102,6 +1144,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &349114581
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349114578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.802654, y: 35.079998, z: 0.20000012}
+  m_Center: {x: 0.0000076293945, y: 0, z: 0.0000076293945}
 --- !u!1001 &385362800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1225,7 +1280,7 @@ Transform:
   m_Children:
   - {fileID: 966668736}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &431889180
 MonoBehaviour:
@@ -1279,9 +1334,10 @@ GameObject:
   m_Component:
   - component: {fileID: 469301814}
   - component: {fileID: 469301815}
+  - component: {fileID: 469301816}
   m_Layer: 0
   m_Name: colonnarotta (9)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1353,6 +1409,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &469301816
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469301813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.802654, y: 35.079998, z: 0.20000012}
+  m_Center: {x: 0, y: 0, z: 0.000030517578}
 --- !u!1001 &484895902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1533,9 +1602,10 @@ GameObject:
   m_Component:
   - component: {fileID: 566018584}
   - component: {fileID: 566018585}
+  - component: {fileID: 566018586}
   m_Layer: 0
   m_Name: rocce (21)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1607,6 +1677,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &566018586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566018583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: -0.0000019073486, y: 0.00000035762787, z: 0.000015258789}
 --- !u!1 &567558358
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,9 +2165,10 @@ GameObject:
   m_Component:
   - component: {fileID: 599334905}
   - component: {fileID: 599334906}
+  - component: {fileID: 599334907}
   m_Layer: 0
   m_Name: rocce (18)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2156,6 +2240,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &599334907
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599334904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0, y: 0.00000011920929, z: 0.000030517578}
 --- !u!1 &603014227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2166,9 +2263,10 @@ GameObject:
   m_Component:
   - component: {fileID: 603014228}
   - component: {fileID: 603014229}
+  - component: {fileID: 603014230}
   m_Layer: 0
   m_Name: rocce (13)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2240,6 +2338,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &603014230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603014227}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0, y: -0.000000059604645, z: -0.0000038146973}
 --- !u!1001 &636753866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2325,9 +2436,10 @@ GameObject:
   m_Component:
   - component: {fileID: 653657772}
   - component: {fileID: 653657773}
+  - component: {fileID: 653657774}
   m_Layer: 0
   m_Name: rocce (19)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2399,6 +2511,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &653657774
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653657771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0, y: 0.00000011920929, z: 0.0000076293945}
 --- !u!1 &686006679
 GameObject:
   m_ObjectHideFlags: 0
@@ -2433,7 +2558,7 @@ Transform:
   - {fileID: 1742055938}
   - {fileID: 1104177629}
   m_Father: {fileID: 109069002}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &686006682
 BoxCollider:
@@ -2643,9 +2768,10 @@ GameObject:
   m_Component:
   - component: {fileID: 750799428}
   - component: {fileID: 750799429}
+  - component: {fileID: 750799430}
   m_Layer: 0
   m_Name: rocce (8)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2717,6 +2843,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &750799430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750799427}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &752369779 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4227711530116667349, guid: 6934bddb074eadc92a55e6141a00c0cb,
@@ -2883,9 +3022,10 @@ GameObject:
   m_Component:
   - component: {fileID: 785671177}
   - component: {fileID: 785671178}
+  - component: {fileID: 785671179}
   m_Layer: 0
   m_Name: colonnarotta (7)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2957,6 +3097,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &785671179
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785671176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.802654, y: 35.079998, z: 0.20000012}
+  m_Center: {x: 0, y: 0, z: 0.0000076293945}
 --- !u!1 &797613765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2967,9 +3120,10 @@ GameObject:
   m_Component:
   - component: {fileID: 797613766}
   - component: {fileID: 797613767}
+  - component: {fileID: 797613768}
   m_Layer: 0
   m_Name: rocce (5)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3041,6 +3195,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &797613768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797613765}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0.0000076293945}
 --- !u!1001 &833429670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3116,90 +3283,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 833429670}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &851585511
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 851585512}
-  - component: {fileID: 851585513}
-  m_Layer: 0
-  m_Name: decorazione
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &851585512
+--- !u!4 &851585512 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+    type: 3}
+  m_PrefabInstance: {fileID: 1581127461382556259}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 851585511}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -79.8, y: 15.3, z: 27.673302}
-  m_LocalScale: {x: 4.94, y: 4.94, z: 5.761279}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 77434575}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &851585513
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 851585511}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bbf928e12d036f93592139743725a776, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 24.802656, y: 35.079998}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &864854870
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,9 +3299,10 @@ GameObject:
   m_Component:
   - component: {fileID: 864854871}
   - component: {fileID: 864854872}
+  - component: {fileID: 864854873}
   m_Layer: 0
   m_Name: rocce (2)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3284,6 +3374,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &864854873
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864854870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &872493531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,9 +3397,10 @@ GameObject:
   m_Component:
   - component: {fileID: 872493532}
   - component: {fileID: 872493533}
+  - component: {fileID: 872493534}
   m_Layer: 0
   m_Name: rocce (9)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3368,6 +3472,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &872493534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872493531}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0.0000076293945}
 --- !u!1 &881235865
 GameObject:
   m_ObjectHideFlags: 0
@@ -3378,9 +3495,10 @@ GameObject:
   m_Component:
   - component: {fileID: 881235866}
   - component: {fileID: 881235867}
+  - component: {fileID: 881235868}
   m_Layer: 0
   m_Name: colonnarotta (2)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3452,6 +3570,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &881235868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881235865}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.802656, y: 35.079998, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0.0000038146973}
 --- !u!1 &893217717
 GameObject:
   m_ObjectHideFlags: 0
@@ -3507,9 +3638,10 @@ GameObject:
   m_Component:
   - component: {fileID: 895515960}
   - component: {fileID: 895515961}
+  - component: {fileID: 895515962}
   m_Layer: 0
   m_Name: rocce (11)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3581,90 +3713,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &928115857
-GameObject:
+--- !u!65 &895515962
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 928115859}
-  - component: {fileID: 928115858}
-  m_Layer: 0
-  m_Name: FinishedNebulasBackground
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
---- !u!212 &928115858
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928115857}
+  m_GameObject: {fileID: 895515959}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 69e5d54950bfe2a45b12a1b68e959c5c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 16.52, y: 5.45}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &928115859
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928115857}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.7, y: 26.2, z: 172}
-  m_LocalScale: {x: 3.48, y: 3.207059, z: 0.3411765}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0.0000076293945, y: 0.000000059604645, z: 0.0000038146973}
 --- !u!1001 &933806414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3825,9 +3886,10 @@ GameObject:
   m_Component:
   - component: {fileID: 949598729}
   - component: {fileID: 949598730}
+  - component: {fileID: 949598731}
   m_Layer: 0
   m_Name: rocce (12)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3899,6 +3961,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &949598731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949598728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &959073868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4296,9 +4371,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1006911313}
   - component: {fileID: 1006911314}
+  - component: {fileID: 1006911315}
   m_Layer: 0
   m_Name: rocce (6)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4370,6 +4446,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1006911315
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006911312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0.0000076293945}
 --- !u!1001 &1059552622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5070,9 +5159,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1220176173}
   - component: {fileID: 1220176174}
+  - component: {fileID: 1220176175}
   m_Layer: 0
   m_Name: rocce (14)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5144,6 +5234,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1220176175
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220176172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0, y: -0.00000011920929, z: 0}
 --- !u!1001 &1228984930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5461,9 +5564,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1293975176}
   - component: {fileID: 1293975177}
+  - component: {fileID: 1293975178}
   m_Layer: 0
   m_Name: rocce (7)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5535,6 +5639,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1293975178
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293975175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1309182471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5651,9 +5768,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1325487115}
   - component: {fileID: 1325487116}
+  - component: {fileID: 1325487117}
   m_Layer: 0
   m_Name: rocce (3)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5725,6 +5843,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1325487117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325487114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0.0000019073486}
 --- !u!1 &1339327739
 GameObject:
   m_ObjectHideFlags: 0
@@ -5735,9 +5866,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1339327740}
   - component: {fileID: 1339327741}
+  - component: {fileID: 1339327742}
   m_Layer: 0
   m_Name: colonnarotta (6)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5809,6 +5941,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1339327742
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339327739}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.802654, y: 35.079998, z: 0.20000012}
+  m_Center: {x: -0.0000076293945, y: 0, z: 0.0000076293945}
 --- !u!1 &1344857729
 GameObject:
   m_ObjectHideFlags: 0
@@ -5909,9 +6054,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1429794638}
   - component: {fileID: 1429794639}
+  - component: {fileID: 1429794640}
   m_Layer: 0
   m_Name: colonnarotta (1)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5983,6 +6129,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1429794640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429794637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.802656, y: 35.079998, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1443990455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6196,9 +6355,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1584972861}
   - component: {fileID: 1584972862}
+  - component: {fileID: 1584972863}
   m_Layer: 0
   m_Name: colonnarotta (5)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6270,6 +6430,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1584972863
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584972860}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 25.973854, y: 38.78256, z: 1.7487215}
+  m_Center: {x: 0.5846885, y: -1.8487718, z: 0.7689667}
 --- !u!1001 &1591067075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6355,9 +6528,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1628445174}
   - component: {fileID: 1628445175}
+  - component: {fileID: 1628445176}
   m_Layer: 0
   m_Name: rocce (4)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6429,6 +6603,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1628445176
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628445173}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0.000015258789}
 --- !u!1001 &1644269146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6528,14 +6715,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653138432}
-  m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: -0.045, y: 0.06, z: 3.691605}
-  m_LocalScale: {x: 9.5, y: 0.04878049, z: 0.048780482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.09, y: 0.06, z: 138.8}
+  m_LocalScale: {x: 19, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109069002}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1653138434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6547,8 +6734,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.503147, y: 1, z: 1}
-  m_Center: {x: -0.82441753, y: 1.0000004, z: -0.00000032866188}
+  m_Size: {x: 12.503147, y: 19.301888, z: 1}
+  m_Center: {x: -0.82441753, y: 0.14023066, z: -0.00000035762787}
 --- !u!1001 &1665803405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6624,90 +6811,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1665803405}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1686282290
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1686282291}
-  - component: {fileID: 1686282292}
-  m_Layer: 0
-  m_Name: colonnarotta
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1686282291
+--- !u!4 &1686282291 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+    type: 3}
+  m_PrefabInstance: {fileID: 2227134965055295600}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686282290}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32, y: 13.7, z: -56.296734}
-  m_LocalScale: {x: 1, y: 1, z: 1.1662507}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 77434575}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1686282292
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686282290}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5b910b47e83145b449c12136784a699e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 24.802656, y: 35.079998}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1691540962
 GameObject:
   m_ObjectHideFlags: 0
@@ -6718,9 +6827,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1691540963}
   - component: {fileID: 1691540964}
+  - component: {fileID: 1691540965}
   m_Layer: 0
   m_Name: rocce (17)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6792,6 +6902,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1691540965
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691540962}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0.0000076293945, y: 0.000000059604645, z: 0.0000076293945}
 --- !u!1001 &1694352461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6877,9 +7000,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1711340606}
   - component: {fileID: 1711340607}
+  - component: {fileID: 1711340608}
   m_Layer: 0
   m_Name: rocce (15)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6951,6 +7075,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1711340608
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711340605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0, y: 0.00000029802322, z: 0.000015258789}
 --- !u!1 &1742055937
 GameObject:
   m_ObjectHideFlags: 0
@@ -7581,9 +7718,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1986531370}
   - component: {fileID: 1986531371}
+  - component: {fileID: 1986531372}
   m_Layer: 0
   m_Name: rocce (1)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7655,90 +7793,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1993501474
-GameObject:
+--- !u!65 &1986531372
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1993501475}
-  - component: {fileID: 1993501476}
-  m_Layer: 0
-  m_Name: rocce
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1993501475
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993501474}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.8, y: 1.7, z: -61.544857}
-  m_LocalScale: {x: 1, y: 1, z: 1.1662507}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 77434575}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1993501476
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993501474}
+  m_GameObject: {fileID: 1986531369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e114035ad2e1e5c49814f312f82e998b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 9, y: 5}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  serializedVersion: 2
+  m_Size: {x: 9, y: 5, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1993501475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 4740865557420013562}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1996669052
 GameObject:
   m_ObjectHideFlags: 0
@@ -7801,7 +7874,7 @@ Transform:
   - {fileID: 566018584}
   - {fileID: 765246129}
   m_Father: {fileID: 109069002}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2095081139
 GameObject:
@@ -7813,9 +7886,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2095081140}
   - component: {fileID: 2095081141}
+  - component: {fileID: 2095081142}
   m_Layer: 0
   m_Name: rocce (20)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7887,6 +7961,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2095081142
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095081139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.999999, y: 5, z: 0.2}
+  m_Center: {x: 0.0000038146973, y: 0.00000017881393, z: 0.0000076293945}
 --- !u!1 &2096317496
 GameObject:
   m_ObjectHideFlags: 0
@@ -7897,9 +7984,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2096317497}
   - component: {fileID: 2096317498}
+  - component: {fileID: 2096317499}
   m_Layer: 0
   m_Name: colonnarotta (3)
-  m_TagString: Untagged
+  m_TagString: FadeSprites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7971,6 +8059,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2096317499
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096317496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.802656, y: 35.079998, z: 0.19999997}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &4400385423921202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5388871054907309452, guid: 14752c09c1bdea07baf402e9fb678c8e,
@@ -8127,6 +8228,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 564625399591105575}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1581127461382556259
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 77434575}
+    m_Modifications:
+    - target: {fileID: 1581127462225486724, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_Name
+      value: decorazione
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -79.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.673302
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581127462225486731, guid: 86bef199eeaf383778594f2829b31f39,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86bef199eeaf383778594f2829b31f39, type: 3}
 --- !u!1001 &1963339868717796931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8207,6 +8377,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1963339868717796931}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2227134965055295600
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 77434575}
+    m_Modifications:
+    - target: {fileID: 2227134963503575106, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_Name
+      value: colonnarotta
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -56.296734
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227134963503575107, guid: 26cce12fff5c962028c05a59348f43de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26cce12fff5c962028c05a59348f43de, type: 3}
 --- !u!1001 &3525200628157479694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8361,6 +8600,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6934bddb074eadc92a55e6141a00c0cb, type: 3}
+--- !u!1001 &4740865557420013562
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 77434575}
+    m_Modifications:
+    - target: {fileID: 4740865557643205848, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_Name
+      value: rocce
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -61.544857
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6, type: 3}
 --- !u!1001 &5388204615872490942
 PrefabInstance:
   m_ObjectHideFlags: 0
