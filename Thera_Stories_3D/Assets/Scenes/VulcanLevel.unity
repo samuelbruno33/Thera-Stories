@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 28729059}
   - component: {fileID: 28729060}
   - component: {fileID: 28729061}
+  - component: {fileID: 28729062}
   m_Layer: 0
   m_Name: colonnarotta (4)
   m_TagString: FadeSprites
@@ -296,6 +297,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.802656, y: 35.079998, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0.000015258789}
+--- !u!54 &28729062
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28729058}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &37645678
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +324,7 @@ GameObject:
   - component: {fileID: 37645679}
   - component: {fileID: 37645680}
   - component: {fileID: 37645681}
+  - component: {fileID: 37645682}
   m_Layer: 0
   m_Name: rocce (10)
   m_TagString: FadeSprites
@@ -394,6 +412,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0.000030517578}
+--- !u!54 &37645682
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37645678}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &39201759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -663,6 +697,7 @@ GameObject:
   - component: {fileID: 221082816}
   - component: {fileID: 221082817}
   - component: {fileID: 221082818}
+  - component: {fileID: 221082819}
   m_Layer: 0
   m_Name: rocce (16)
   m_TagString: FadeSprites
@@ -750,6 +785,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0.0000076293945, y: -0.000000014901161, z: 0}
+--- !u!54 &221082819
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221082815}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &242906225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,6 +1121,7 @@ GameObject:
   - component: {fileID: 349114579}
   - component: {fileID: 349114580}
   - component: {fileID: 349114581}
+  - component: {fileID: 349114582}
   m_Layer: 0
   m_Name: colonnarotta (8)
   m_TagString: FadeSprites
@@ -1157,6 +1209,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.802654, y: 35.079998, z: 0.20000012}
   m_Center: {x: 0.0000076293945, y: 0, z: 0.0000076293945}
+--- !u!54 &349114582
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349114578}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &385362800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1335,6 +1403,7 @@ GameObject:
   - component: {fileID: 469301814}
   - component: {fileID: 469301815}
   - component: {fileID: 469301816}
+  - component: {fileID: 469301817}
   m_Layer: 0
   m_Name: colonnarotta (9)
   m_TagString: FadeSprites
@@ -1422,6 +1491,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.802654, y: 35.079998, z: 0.20000012}
   m_Center: {x: 0, y: 0, z: 0.000030517578}
+--- !u!54 &469301817
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469301813}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &484895902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1603,6 +1688,7 @@ GameObject:
   - component: {fileID: 566018584}
   - component: {fileID: 566018585}
   - component: {fileID: 566018586}
+  - component: {fileID: 566018587}
   m_Layer: 0
   m_Name: rocce (21)
   m_TagString: FadeSprites
@@ -1690,6 +1776,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: -0.0000019073486, y: 0.00000035762787, z: 0.000015258789}
+--- !u!54 &566018587
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566018583}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &567558358
 GameObject:
   m_ObjectHideFlags: 0
@@ -2166,6 +2268,7 @@ GameObject:
   - component: {fileID: 599334905}
   - component: {fileID: 599334906}
   - component: {fileID: 599334907}
+  - component: {fileID: 599334908}
   m_Layer: 0
   m_Name: rocce (18)
   m_TagString: FadeSprites
@@ -2253,6 +2356,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0, y: 0.00000011920929, z: 0.000030517578}
+--- !u!54 &599334908
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599334904}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &603014227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2264,6 +2383,7 @@ GameObject:
   - component: {fileID: 603014228}
   - component: {fileID: 603014229}
   - component: {fileID: 603014230}
+  - component: {fileID: 603014231}
   m_Layer: 0
   m_Name: rocce (13)
   m_TagString: FadeSprites
@@ -2351,6 +2471,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0, y: -0.000000059604645, z: -0.0000038146973}
+--- !u!54 &603014231
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603014227}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &636753866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2437,6 +2573,7 @@ GameObject:
   - component: {fileID: 653657772}
   - component: {fileID: 653657773}
   - component: {fileID: 653657774}
+  - component: {fileID: 653657775}
   m_Layer: 0
   m_Name: rocce (19)
   m_TagString: FadeSprites
@@ -2524,6 +2661,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0, y: 0.00000011920929, z: 0.0000076293945}
+--- !u!54 &653657775
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653657771}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &686006679
 GameObject:
   m_ObjectHideFlags: 0
@@ -2769,6 +2922,7 @@ GameObject:
   - component: {fileID: 750799428}
   - component: {fileID: 750799429}
   - component: {fileID: 750799430}
+  - component: {fileID: 750799431}
   m_Layer: 0
   m_Name: rocce (8)
   m_TagString: FadeSprites
@@ -2856,6 +3010,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &750799431
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750799427}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &752369779 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4227711530116667349, guid: 6934bddb074eadc92a55e6141a00c0cb,
@@ -3023,6 +3193,7 @@ GameObject:
   - component: {fileID: 785671177}
   - component: {fileID: 785671178}
   - component: {fileID: 785671179}
+  - component: {fileID: 785671180}
   m_Layer: 0
   m_Name: colonnarotta (7)
   m_TagString: FadeSprites
@@ -3110,6 +3281,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.802654, y: 35.079998, z: 0.20000012}
   m_Center: {x: 0, y: 0, z: 0.0000076293945}
+--- !u!54 &785671180
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785671176}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &797613765
 GameObject:
   m_ObjectHideFlags: 0
@@ -3121,6 +3308,7 @@ GameObject:
   - component: {fileID: 797613766}
   - component: {fileID: 797613767}
   - component: {fileID: 797613768}
+  - component: {fileID: 797613769}
   m_Layer: 0
   m_Name: rocce (5)
   m_TagString: FadeSprites
@@ -3208,6 +3396,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0.0000076293945}
+--- !u!54 &797613769
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797613765}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &833429670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3300,6 +3504,7 @@ GameObject:
   - component: {fileID: 864854871}
   - component: {fileID: 864854872}
   - component: {fileID: 864854873}
+  - component: {fileID: 864854874}
   m_Layer: 0
   m_Name: rocce (2)
   m_TagString: FadeSprites
@@ -3387,6 +3592,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &864854874
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864854870}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &872493531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3398,6 +3619,7 @@ GameObject:
   - component: {fileID: 872493532}
   - component: {fileID: 872493533}
   - component: {fileID: 872493534}
+  - component: {fileID: 872493535}
   m_Layer: 0
   m_Name: rocce (9)
   m_TagString: FadeSprites
@@ -3485,6 +3707,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0.0000076293945}
+--- !u!54 &872493535
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872493531}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &881235865
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,6 +3734,7 @@ GameObject:
   - component: {fileID: 881235866}
   - component: {fileID: 881235867}
   - component: {fileID: 881235868}
+  - component: {fileID: 881235869}
   m_Layer: 0
   m_Name: colonnarotta (2)
   m_TagString: FadeSprites
@@ -3583,6 +3822,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.802656, y: 35.079998, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0.0000038146973}
+--- !u!54 &881235869
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881235865}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &893217717
 GameObject:
   m_ObjectHideFlags: 0
@@ -3639,6 +3894,7 @@ GameObject:
   - component: {fileID: 895515960}
   - component: {fileID: 895515961}
   - component: {fileID: 895515962}
+  - component: {fileID: 895515963}
   m_Layer: 0
   m_Name: rocce (11)
   m_TagString: FadeSprites
@@ -3726,6 +3982,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0.0000076293945, y: 0.000000059604645, z: 0.0000038146973}
+--- !u!54 &895515963
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895515959}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &933806414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3887,6 +4159,7 @@ GameObject:
   - component: {fileID: 949598729}
   - component: {fileID: 949598730}
   - component: {fileID: 949598731}
+  - component: {fileID: 949598732}
   m_Layer: 0
   m_Name: rocce (12)
   m_TagString: FadeSprites
@@ -3974,6 +4247,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &949598732
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949598728}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &959073868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4372,6 +4661,7 @@ GameObject:
   - component: {fileID: 1006911313}
   - component: {fileID: 1006911314}
   - component: {fileID: 1006911315}
+  - component: {fileID: 1006911316}
   m_Layer: 0
   m_Name: rocce (6)
   m_TagString: FadeSprites
@@ -4459,6 +4749,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0.0000076293945}
+--- !u!54 &1006911316
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006911312}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1059552622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5160,6 +5466,7 @@ GameObject:
   - component: {fileID: 1220176173}
   - component: {fileID: 1220176174}
   - component: {fileID: 1220176175}
+  - component: {fileID: 1220176176}
   m_Layer: 0
   m_Name: rocce (14)
   m_TagString: FadeSprites
@@ -5247,6 +5554,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0, y: -0.00000011920929, z: 0}
+--- !u!54 &1220176176
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220176172}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1228984930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5565,6 +5888,7 @@ GameObject:
   - component: {fileID: 1293975176}
   - component: {fileID: 1293975177}
   - component: {fileID: 1293975178}
+  - component: {fileID: 1293975179}
   m_Layer: 0
   m_Name: rocce (7)
   m_TagString: FadeSprites
@@ -5652,6 +5976,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1293975179
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293975175}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1309182471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5769,6 +6109,7 @@ GameObject:
   - component: {fileID: 1325487115}
   - component: {fileID: 1325487116}
   - component: {fileID: 1325487117}
+  - component: {fileID: 1325487118}
   m_Layer: 0
   m_Name: rocce (3)
   m_TagString: FadeSprites
@@ -5856,6 +6197,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0.0000019073486}
+--- !u!54 &1325487118
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325487114}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1339327739
 GameObject:
   m_ObjectHideFlags: 0
@@ -5867,6 +6224,7 @@ GameObject:
   - component: {fileID: 1339327740}
   - component: {fileID: 1339327741}
   - component: {fileID: 1339327742}
+  - component: {fileID: 1339327743}
   m_Layer: 0
   m_Name: colonnarotta (6)
   m_TagString: FadeSprites
@@ -5954,6 +6312,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.802654, y: 35.079998, z: 0.20000012}
   m_Center: {x: -0.0000076293945, y: 0, z: 0.0000076293945}
+--- !u!54 &1339327743
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339327739}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1344857729
 GameObject:
   m_ObjectHideFlags: 0
@@ -6055,6 +6429,7 @@ GameObject:
   - component: {fileID: 1429794638}
   - component: {fileID: 1429794639}
   - component: {fileID: 1429794640}
+  - component: {fileID: 1429794641}
   m_Layer: 0
   m_Name: colonnarotta (1)
   m_TagString: FadeSprites
@@ -6142,6 +6517,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.802656, y: 35.079998, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1429794641
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429794637}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1443990455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6356,6 +6747,7 @@ GameObject:
   - component: {fileID: 1584972861}
   - component: {fileID: 1584972862}
   - component: {fileID: 1584972863}
+  - component: {fileID: 1584972864}
   m_Layer: 0
   m_Name: colonnarotta (5)
   m_TagString: FadeSprites
@@ -6443,6 +6835,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 25.973854, y: 38.78256, z: 1.7487215}
   m_Center: {x: 0.5846885, y: -1.8487718, z: 0.7689667}
+--- !u!54 &1584972864
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584972860}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1591067075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6529,6 +6937,7 @@ GameObject:
   - component: {fileID: 1628445174}
   - component: {fileID: 1628445175}
   - component: {fileID: 1628445176}
+  - component: {fileID: 1628445177}
   m_Layer: 0
   m_Name: rocce (4)
   m_TagString: FadeSprites
@@ -6616,6 +7025,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0.000015258789}
+--- !u!54 &1628445177
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628445173}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1644269146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6701,9 +7126,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1653138433}
   - component: {fileID: 1653138434}
+  - component: {fileID: 1653138435}
   m_Layer: 0
   m_Name: FadeOutSprites
-  m_TagString: FinishLine
+  m_TagString: FadeOutLine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6716,7 +7142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653138432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: 0.06, z: 138.8}
+  m_LocalPosition: {x: -0.09, y: 6.3, z: 144.4}
   m_LocalScale: {x: 19, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6736,6 +7162,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12.503147, y: 19.301888, z: 1}
   m_Center: {x: -0.82441753, y: 0.14023066, z: -0.00000035762787}
+--- !u!114 &1653138435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653138432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b595b08e5990c07b998493578835d317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1665803405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6828,6 +7266,7 @@ GameObject:
   - component: {fileID: 1691540963}
   - component: {fileID: 1691540964}
   - component: {fileID: 1691540965}
+  - component: {fileID: 1691540966}
   m_Layer: 0
   m_Name: rocce (17)
   m_TagString: FadeSprites
@@ -6915,6 +7354,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0.0000076293945, y: 0.000000059604645, z: 0.0000076293945}
+--- !u!54 &1691540966
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691540962}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1694352461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7001,6 +7456,7 @@ GameObject:
   - component: {fileID: 1711340606}
   - component: {fileID: 1711340607}
   - component: {fileID: 1711340608}
+  - component: {fileID: 1711340609}
   m_Layer: 0
   m_Name: rocce (15)
   m_TagString: FadeSprites
@@ -7088,6 +7544,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0, y: 0.00000029802322, z: 0.000015258789}
+--- !u!54 &1711340609
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711340605}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1742055937
 GameObject:
   m_ObjectHideFlags: 0
@@ -7719,6 +8191,7 @@ GameObject:
   - component: {fileID: 1986531370}
   - component: {fileID: 1986531371}
   - component: {fileID: 1986531372}
+  - component: {fileID: 1986531373}
   m_Layer: 0
   m_Name: rocce (1)
   m_TagString: FadeSprites
@@ -7806,6 +8279,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9, y: 5, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1986531373
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986531369}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &1993501475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4740865557643205849, guid: 18bcdf8dc3f2e5919be2d9c912fe69d6,
@@ -7887,6 +8376,7 @@ GameObject:
   - component: {fileID: 2095081140}
   - component: {fileID: 2095081141}
   - component: {fileID: 2095081142}
+  - component: {fileID: 2095081143}
   m_Layer: 0
   m_Name: rocce (20)
   m_TagString: FadeSprites
@@ -7974,6 +8464,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.999999, y: 5, z: 0.2}
   m_Center: {x: 0.0000038146973, y: 0.00000017881393, z: 0.0000076293945}
+--- !u!54 &2095081143
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095081139}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2096317496
 GameObject:
   m_ObjectHideFlags: 0
@@ -7985,6 +8491,7 @@ GameObject:
   - component: {fileID: 2096317497}
   - component: {fileID: 2096317498}
   - component: {fileID: 2096317499}
+  - component: {fileID: 2096317500}
   m_Layer: 0
   m_Name: colonnarotta (3)
   m_TagString: FadeSprites
@@ -8072,6 +8579,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 24.802656, y: 35.079998, z: 0.19999997}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2096317500
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096317496}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &4400385423921202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5388871054907309452, guid: 14752c09c1bdea07baf402e9fb678c8e,

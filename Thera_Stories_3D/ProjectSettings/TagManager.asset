@@ -8,6 +8,7 @@ TagManager:
   - FinishLine
   - BoulderLava
   - FadeSprites
+  - FadeOutLine
   layers:
   - Default
   - TransparentFX
