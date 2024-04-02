@@ -1,2 +1,2 @@
-# Thera-Stories
-A very nice game that teaches you the history of Santorini!
+# Thera Stories
+A very nice mobile game that teaches you the history of Santorini!
